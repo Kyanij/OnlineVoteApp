@@ -1,7 +1,7 @@
 {
   "name": "pusherpull",
   "version": "1.0.0",
-  "description": "It's all about pusher library",
+  "description": "It's all using pusher library",
   "main": "app.js",
   "scripts": {
     "start":"node app.js",

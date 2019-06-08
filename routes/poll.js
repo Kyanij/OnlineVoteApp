@@ -41,14 +41,4 @@ router.post('/', (req,res) => {
 })
 
 
-let info = {
-  id:1,
-  name:'kyanij',
-  age:22
-}
-router.get('/todo', (req,res) => {
-  const msg = req.body.item
-  return res.send(info)
-})
-
 module.exports = router;

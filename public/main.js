@@ -19,19 +19,6 @@ form.addEventListener('submit', (e) => {
     e.preventDefault();
 })
 
-const btn = document.getElementById('list');
-btn.addEventListener('click', (e) => {
-
-    fetch('http://localhost:3000/poll', {
-        method:'get'
-     
-    })
-    .then(res => res.json())
-    .then(votes => {
-        console.log(votes);
-    })
-    .catch(err => console.log(err));
-})
 
 fetch('http://localhost:3000/poll')
 .then(res => res.json())
