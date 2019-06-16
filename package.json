@@ -8,6 +8,7 @@
     "dev":"nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "proxy": "http://localhost:3000",
   "author": "Kyanij Maharjan",
   "license": "ISC",
   "dependencies": {

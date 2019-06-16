@@ -20,7 +20,7 @@ app.use(bodyParser.urlencoded({useNewUrlParser:true}));
 // Enable CORS
 app.use(cors());
 
-app.use('/poll', poll)
+app.use('/api/poll', poll)
 
 const port = process.env.PORT || 3000;
 // Start server
